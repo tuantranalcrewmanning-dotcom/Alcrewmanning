@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="320" height="90">
+  <defs>
+    <linearGradient id="emblemBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1638" />
+      <stop offset="100%" stop-color="#0e265c" />
+    </linearGradient>
+    <linearGradient id="waveCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem (Maritime Crest) -->
+  <g transform="translate(8, 7)">
+    <!-- Emblem Outer Ring -->
+    <rect x="0" y="0" width="76" height="76" rx="16" fill="url(#emblemBg)" />
+    <rect x="2" y="2" width="72" height="72" rx="14" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.85" />
+    
+    <!-- Stylized Waves & Ship Prow -->
+    <!-- Lower wave -->
+    <path d="M12 55 Q 26 48 38 54 Q 50 60 64 52" fill="none" stroke="url(#waveCyan)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Middle wave -->
+    <path d="M16 61 Q 28 56 38 60 Q 48 64 60 59" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" opacity="0.7" />
+    
+    <!-- Dynamic Sails / Hull (Au Lac Ship) -->
+    <path d="M38 18 C38 18 48 26 48 38 C48 45 42 47 38 48 C34 47 28 45 28 38 C28 26 38 18 38 18 Z" fill="url(#waveCyan)" opacity="0.2" />
+    
+    <!-- Main Stylized Anchor & Compass Bow -->
+    <!-- Central Mast/Shaft -->
+    <line x1="38" y1="20" x2="38" y2="46" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Crossbar -->
+    <line x1="30" y1="28" x2="46" y2="28" stroke="url(#goldGrad)" stroke-width="2.2" stroke-linecap="round" />
+    <!-- Anchor Flukes / Dynamic Bow Wave -->
+    <path d="M24 38 C 24 48 31 52 38 52 C 45 52 52 48 52 38" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Golden Compass Ring Top -->
+    <circle cx="38" cy="20" r="3.5" fill="none" stroke="url(#goldGrad)" stroke-width="2" />
+    <!-- Star on top -->
+    <circle cx="38" cy="13" r="1.8" fill="#fbbf24" />
+  </g>
+
+  <!-- Right Typography -->
+  <!-- Brand Name -->
+  <text x="96" y="37" font-family="'Be Vietnam Pro', system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#0E1F4D" letter-spacing="0.5">
+    ÂU LẠC
+  </text>
+  
+  <!-- Sub-brand / Manning -->
+  <text x="97" y="55" font-family="'Be Vietnam Pro', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#0284C7" letter-spacing="2.8">
+    CREW MANNING
+  </text>
+  
+  <!-- Standards / Credentials tag -->
+  <g transform="translate(97, 63)">
+    <rect x="0" y="0" width="145" height="15" rx="3" fill="#f1f5f9" />
+    <circle cx="6" cy="7.5" r="2.5" fill="#10b981" />
+    <text x="13" y="11" font-family="'JetBrains Mono', monospace, sans-serif" font-size="8" font-weight="600" fill="#475569" letter-spacing="0.6">
+      MLC 2006 · ISO 9001:2015
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" width="320" height="90">
+  <defs>
+    <linearGradient id="emblemBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="waveCyanDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="goldGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem (Maritime Crest) -->
+  <g transform="translate(8, 7)">
+    <rect x="0" y="0" width="76" height="76" rx="16" fill="url(#emblemBgDark)" stroke="#334155" stroke-width="1" />
+    <rect x="2" y="2" width="72" height="72" rx="14" fill="none" stroke="url(#goldGradDark)" stroke-width="1.5" opacity="0.9" />
+    
+    <path d="M12 55 Q 26 48 38 54 Q 50 60 64 52" fill="none" stroke="url(#waveCyanDark)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M16 61 Q 28 56 38 60 Q 48 64 60 59" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" opacity="0.8" />
+    
+    <path d="M38 18 C38 18 48 26 48 38 C48 45 42 47 38 48 C34 47 28 45 28 38 C28 26 38 18 38 18 Z" fill="url(#waveCyanDark)" opacity="0.3" />
+    
+    <line x1="38" y1="20" x2="38" y2="46" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="30" y1="28" x2="46" y2="28" stroke="url(#goldGradDark)" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M24 38 C 24 48 31 52 38 52 C 45 52 52 48 52 38" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="38" cy="20" r="3.5" fill="none" stroke="url(#goldGradDark)" stroke-width="2" />
+    <circle cx="38" cy="13" r="1.8" fill="#fbbf24" />
+  </g>
+
+  <!-- Right Typography -->
+  <text x="96" y="37" font-family="'Be Vietnam Pro', system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#ffffff" letter-spacing="0.5">
+    ÂU LẠC
+  </text>
+  
+  <text x="97" y="55" font-family="'Be Vietnam Pro', system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" fill="#38bdf8" letter-spacing="2.8">
+    CREW MANNING
+  </text>
+  
+  <g transform="translate(97, 63)">
+    <rect x="0" y="0" width="145" height="15" rx="3" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.5" />
+    <circle cx="6" cy="7.5" r="2.5" fill="#34d399" />
+    <text x="13" y="11" font-family="'JetBrains Mono', monospace, sans-serif" font-size="8" font-weight="600" fill="#94a3b8" letter-spacing="0.6">
+      MLC 2006 · ISO 9001:2015
+    </text>
+  </g>
+</svg>
